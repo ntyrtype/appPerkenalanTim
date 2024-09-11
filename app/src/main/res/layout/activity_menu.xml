@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    tools:context=".menu"
+    android:layout_margin="10dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROJECT MANAGER"
+        android:background="#B4D4FF"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="40dp"
+        android:gravity="center_horizontal"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:textColor="#16423C"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imageView5"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/fajrul" />
+
+    <TextView
+        android:id="@+id/fajrul"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Fajrul Falah A"
+        android:background="#B4D4FF"
+        android:textColor="#176B87"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fajrul_npm"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="2120501053"
+        android:background="#B4D4FF"
+        android:textColor="#176B87"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/next_1"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#16423C"
+        android:text="next"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+</LinearLayout>
